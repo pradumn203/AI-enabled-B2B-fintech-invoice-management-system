@@ -87,17 +87,22 @@ pip install xgboost pandas --user
 4. Run the Integration.ipynb in the flask-integration folder using jupyter notebook.
 
 
+## Demo of the CRUD operations, Predict and Analytics Feature: <br>
 
+### 1. Add a Record:<br>
+https://user-images.githubusercontent.com/62816609/164052971-ffbd4996-3b12-4b0c-a527-50a2ec3f1ef6.mp4
 
+### 2. Edit a Record:<br>
+https://user-images.githubusercontent.com/62816609/164052994-1f78768f-b4c3-4104-b1f6-79299c785947.mp4
 
+### 3. Delete a Record:<br>
+https://user-images.githubusercontent.com/62816609/164054479-0b0220af-ff71-4993-92ef-2f265aa2f775.mp4
 
+### 4. Search and Advanced Search:<br>
+https://user-images.githubusercontent.com/62816609/164056815-5449409f-a5b6-4f8e-837b-9c279ebe6346.mp4
 
+### 5. Predict:<br>
+https://user-images.githubusercontent.com/62816609/164058058-a6bb052f-93c5-4599-9b64-7fdaba919a36.mp4
 
-
-
-
-
-
-
-
-
+### 6. Analytics View:<br>
+https://user-images.githubusercontent.com/62816609/164061591-7f4fff3c-1f90-48a1-b7a8-a5560a51aac6.mp4
