@@ -1,0 +1,15 @@
+.ButtonHeader{
+    display: inline-block;
+}
+.left{
+    display:inline-block;
+}
+.right{
+    display:inline-block;
+    margin-left:700px;
+}
+input{
+    border-radius: 10px;
+    height: 35px;
+    font-size: 20px;
+}
