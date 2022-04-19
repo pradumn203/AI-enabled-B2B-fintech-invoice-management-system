@@ -82,7 +82,6 @@ pip install --upgrade pandas --user
 pip install --upgrade flask --user
 
 pip install xgboost pandas --user
-
 ```
 4. Run the Integration.ipynb in the flask-integration folder using jupyter notebook.
 
