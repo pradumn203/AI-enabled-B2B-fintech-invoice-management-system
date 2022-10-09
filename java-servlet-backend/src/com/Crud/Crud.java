@@ -79,7 +79,7 @@ public class Crud {
     	Class.forName("com.mysql.jdbc.Driver");
     	
     	//To handle adding of data after deleting last row
-    	String selectAllQuery = "select * from hrc";
+    	String selectAllQuery = "select * from invoices";
     	Statement statement = conn.createStatement();    	
     	ResultSet selectAll = statement.executeQuery(selectAllQuery);
     	int count = 0;
