@@ -41,7 +41,7 @@ function Chart (){
   const[totOpenAmt, settotOpenAmt] = useState(null);
   const[noOfCust, setnoOfCust] = useState(null);
   useEffect(() => {
-  axios.get(`http://localhost:8080/hrc-backend/AnalyticsServlet`)
+  axios.get(`http://localhost:8081/backend/AnalyticsServlet`)
   .then(res => {
     console.log(res.data);
     setChartData(...res.data);
