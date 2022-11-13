@@ -191,7 +191,7 @@ function AnalyticView(props) {
           body: "made in India"
         };
         try{
-         axios.post(`http://localhost:8080/hrc-backend/AnalyticsServlet?clear_date1=${y[0].value}&clear_date2=${y[1].value}&due_in_date1=${y[2].value}&due_in_date2=${y[3].value}&baseline_create_date1=${y[4].value}&baseline_create_date2=${y[5].value}&invoice_currency=${y[6].value}`,data)
+         axios.post(`http://localhost:8081/backend/AnalyticsServlet?clear_date1=${y[0].value}&clear_date2=${y[1].value}&due_in_date1=${y[2].value}&due_in_date2=${y[3].value}&baseline_create_date1=${y[4].value}&baseline_create_date2=${y[5].value}&invoice_currency=${y[6].value}`,data)
          .then(res => {setshowChart(true);})
         }catch(error){
           console.log("postError");
