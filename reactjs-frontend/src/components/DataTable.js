@@ -58,7 +58,7 @@ const DataTable = (props) => {
     console.log(props.cust_number);
     console.log(props.business_year);
     useEffect(() => {
-        fetch("http://localhost:8080/hrc-backend/DisplayServlet")
+        fetch("http://localhost:8081/backend/DisplayServlet")
             .then(data => data.json())
             .then(data => setTableData(data))            
     },[])

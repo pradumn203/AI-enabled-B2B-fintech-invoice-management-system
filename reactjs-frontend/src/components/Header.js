@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './header.css'
 import abclogo from './images/abc.png'
-import hrclogo from './images/logo.png'
+import logo from './images/logo.png'
 
 export class Header extends Component {
     render() {
@@ -12,7 +12,7 @@ export class Header extends Component {
                     <p className="invoice">Invoice List</p>
                 </div>
                 <div className="logo">
-                    <img src={hrclogo} />
+                    <img src={logo} />
                 </div>  
             </div>
         )

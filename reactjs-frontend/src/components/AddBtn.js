@@ -169,7 +169,7 @@ export default function AddBtn(props) {
       body: "made in India"
     };
     try{
-     axios.post(`http://localhost:8080/hrc-backend/InsertServlet?business_code=${business_code}&cust_number=${cust_number}&clear_date=${clear_date}&business_year=${business_year}&doc_id=${doc_id}&posting_date=${posting_date}&document_create_date=${document_create_date}&due_in_date=${due_in_date}&invoice_currency=${invoice_currency}&document_type=${document_type}&posting_id=${posting_id}&total_open_amount=${total_open_amount}&baseline_create_date=${baseline_create_date}&cust_payment_terms=${cust_payment_terms}&invoice_id=${invoice_id}`,data)
+     axios.post(`http://localhost:8081/backend/InsertServlet?business_code=${business_code}&cust_number=${cust_number}&clear_date=${clear_date}&business_year=${business_year}&doc_id=${doc_id}&posting_date=${posting_date}&document_create_date=${document_create_date}&due_in_date=${due_in_date}&invoice_currency=${invoice_currency}&document_type=${document_type}&posting_id=${posting_id}&total_open_amount=${total_open_amount}&baseline_create_date=${baseline_create_date}&cust_payment_terms=${cust_payment_terms}&invoice_id=${invoice_id}`,data)
      .then(res => console.log(res)) 
     }catch(error){
       console.log("postError");

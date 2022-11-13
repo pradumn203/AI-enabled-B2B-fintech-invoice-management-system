@@ -151,7 +151,7 @@ export default function Predict(props) {
     console.log(agBucket);
     console.log(clrDate);
     try{
-      axios.post(`http://localhost:8080/hrc-backend/PredictBucketServlet?docID=${documentId}&ageBucket=${agBucket}&clearDate=${clrDate}`,agBucket)
+      axios.post(`http://localhost:8081/backend/PredictBucketServlet?docID=${documentId}&ageBucket=${agBucket}&clearDate=${clrDate}`,agBucket)
       .then(res => console.log(res))
      }catch(error){
        console.log("postError");

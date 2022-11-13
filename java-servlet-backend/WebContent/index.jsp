@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HRC CRUD Application</title>
+    <title>CRUD Application</title>
 </head>
 <body>
 <h1><%= "CRUD Application" %>

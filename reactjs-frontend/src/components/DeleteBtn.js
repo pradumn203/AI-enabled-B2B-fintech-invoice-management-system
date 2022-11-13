@@ -114,7 +114,7 @@ export default function DltBtn(props) {
       body: "made in India"
     };
     try{
-     axios.post(`http://localhost:8080/hrc-backend/DeleteServlet?deleteArray=${checkBox}`,data)
+     axios.post(`http://localhost:8081/backend/DeleteServlet?deleteArray=${checkBox}`,data)
      .then(res => console.log(res)) 
     }catch(error){
       console.log("postError");
