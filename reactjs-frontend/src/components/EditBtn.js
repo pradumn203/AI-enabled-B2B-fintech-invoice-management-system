@@ -146,7 +146,7 @@ export default function EditBtn(props) {
           body: "made in India"
         };
         try{
-         axios.post(`http://localhost:8080/hrc-backend/EditServlet?invoice_currency=${invoice_currency}&cust_payment_terms=${customer_payment_terms}&sl_no=${checkBox[0]}`,data)
+         axios.post(`http://localhost:8081/backend/EditServlet?invoice_currency=${invoice_currency}&cust_payment_terms=${customer_payment_terms}&sl_no=${checkBox[0]}`,data)
          .then(res => console.log(res))          
         }catch(error){
           console.log("postError");
